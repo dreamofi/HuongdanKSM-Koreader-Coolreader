@@ -1,4 +1,5 @@
 # HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG KSM, KOREADER VÀ COOLREADER CHO MÁY ĐỌC SÁCH KOBO
+_Viết bằng FocusWriter, chạy trên Linux Mint 18.2, ngày 27/8/2017_
 # Mục lục
 1. Giới thiệu về Kobo Start Menu, Koreader và Coolreader<br>
 1.1. Giới thiệu về Kobo Start Menu (KSM)<br>
