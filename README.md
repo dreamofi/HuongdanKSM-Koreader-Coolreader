@@ -46,15 +46,15 @@ Koreader là ứng dụng đọc sách mở rộng cho máy đọc sách của K
 Coolreader là một ứng dụng tương tự như Koreader, các tính năng chính là:
 - Hỗ trợ đọc các file epub (non-DRM), fb2, doc, txt, rtf, html, chm, tcr, pdb, prc, mobi (non-DRM), pml. Theo ghi nhận thì Coolreader đọc mobi tốt hơn koreader.
 - Trong bộ cài đặt có thêm các ứng dụng đi kèm là:
-(1) pbchess (chess trainer) (Touch) [chơi cờ vua, phải mất $ mua, nếu không mua thì cứ một lúc lại hiện thông báo]
-(2) checkers (Touch, Non-touch) [kiểu như cờ ca rô]
-(3) reversi (othello) (Touch, Non-touch) [một trò chơi nữa]
-(4) sokoban (Touch, Non-touch) [một trò chơi nữa]
-(5) sudoku (touch only) [một trò chơi nữa]
-(6) notepad (Touch, Non-touch) [ứng dụng cho ghi chépư
-(7) calculator (Touch, Non-touch) [máy tính]
-(8) dictionary (touch only) [từ điển, hỗ trợ dạng stardict]
-(9) file manager (touch only) [trình duyệt file, cho phép copy, paste, xóa file ngay trong máy Kobo mà không cần kết nối máy tính]
+  * (1) pbchess (chess trainer) (Touch) [chơi cờ vua, phải mất $ mua, nếu không mua thì cứ một lúc lại hiện thông báo]
+  * (2) checkers (Touch, Non-touch) [kiểu như cờ ca rô]
+  * (3) reversi (othello) (Touch, Non-touch) [một trò chơi nữa]
+  * (4) sokoban (Touch, Non-touch) [một trò chơi nữa]
+  * (5) sudoku (touch only) [một trò chơi nữa]
+  * (6) notepad (Touch, Non-touch) [ứng dụng cho ghi chépư
+  * (7) calculator (Touch, Non-touch) [máy tính]
+  * (8) dictionary (touch only) [từ điển, hỗ trợ dạng stardict]
+  * (9) file manager (touch only) [trình duyệt file, cho phép copy, paste, xóa file ngay trong máy Kobo mà không cần kết nối máy tính]
 
 ## 2. Cách cài đặt KSM
 ### 2.1. Lưu ý trước khi cài đặt
