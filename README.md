@@ -1,4 +1,30 @@
 # HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG KSM, KOREADER VÀ COOLREADER CHO MÁY ĐỌC SÁCH KOBO
+# Mục lục
+1. Giới thiệu về Kobo Start Menu, Koreader và Coolreader<br>
+1.1. Giới thiệu về Kobo Start Menu (KSM)<br>
+1.2. Giới thiệu về Koreader<br>
+1.3. Giới thiệu về Coolreader<br>
+2. Cách cài đặt KSM<br>
+2.1. Lưu ý trước khi cài đặt<br>
+2.2. Tiến hành cài đặt<br>
+2.2.1. Cài đặt KSM<br>
+2.2.2. Cài đặt patch bổ sung cho KSM<br>
+2.2.2.1. Cảnh báo<br>
+2.2.2.2. Các bước cài patch cho các máy Kobo đời trước Aura H2O Edition 2<br>
+2.2.3. Gỡ bỏ KSM<br>
+3. Sử dụng Koreader<br>
+3.1. Lưu ý trước khi cài đặt<br>
+3.2. Tiến hành cài đặt<br>
+3.3. Hướng dẫn sử dụng cơ bản<br>
+3.3.1. Giao diện sử dụng (đang cập nhật)<br>
+3.3.2. Cài đặt thêm từ điển<br>
+3.3.3. Cài đặt thêm font<br>
+4. Sử dụng Coolreader<br>
+4.1. Cài đặt<br>
+4.2. Hướng dẫn sử dụng cơ bản<br>
+5. Khắc mục một số vấn đề khi sử dụng KSM / Koreader & Coolreader (còn cập nhật)<br>
+5.1. KSM/Koreader/Coolreader hay bị đơ<br>
+6. Nguồn tham khảo<br>
 
 ## 1. Giới thiệu về Kobo Start Menu, Koreader và Coolreader
 ### 1.1. Giới thiệu về Kobo Start Menu (KSM)
