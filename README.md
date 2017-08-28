@@ -133,7 +133,7 @@ Em xin tặng các bác link tải từ điển dạng stardict để dùng vớ
 - Link tổng các thể loại từ điển khác: http://download.huzheng.org/
 
 Để cài từ điển cho koreader thì các bác chỉ việc giải nén mấy cái file từ điển về, mỗi loại từ điển nên cho nó vào một thư mục riêng. Thường thì trong mỗi thư mục từ điển sẽ có vài file có đuôi .ifo, .idx, .dz, .oft. Xong rồi các bác cứ copy các folder từ điển vào thư mục .adds/koreader/data/dict trên máy Kobo. Để tra từ thì chỉ việc dùng ngón tay giữ vào từ cần tra. Lần đầu khởi chạy thì nếu các bác cài nhiều từ điển (em cài khoảng 7-8 cái, trong đó có 2-3 cái từ điển dung lượng >100mb) thì sẽ mất khoảng vài phút. Các bác thấy máy nó như kiểu không chạy thì cứ để im đấy nhé, một lúc là sẽ chạy xong.<br>
-![Từ điển Koreader](https://camo.githubusercontent.com/dbc9da7b6b2034cc2f3312f6f42491117a9147f6/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3735313533352f313036353233392f32383237626562322d313337652d313165332d386638652d6162646132343939313765372e676966)
+![Từ điển Koreader](http://i.imgur.com/Om888hT.jpg)
 
 #### 3.3.3. Cài đặt thêm font
 Các bác copy font bất kỳ vào .adds/koreader/fonts
