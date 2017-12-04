@@ -94,7 +94,7 @@ Các file này không phải là file ảnh đơn thuần, mà về sau sau khi 
 - Các đời máy mới có ít tùy chọn reset và phục hồi, cho nên khả năng các máy đời mới có khả năng "ra đi" cao hơn so với các đời cũ. Như vậy chúng ta nên sao lưu trước để đề phòng (xem lại phần 2.1).
 
 ##### 2.2.2.2. Các bước cài patch cho các máy Kobo đời trước Aura H2O Edition 2
--  Tải patch tại đây (file tải về là KSM08_ext_aura_one_05b.zip): https://www.mobileread.com/forums/attachment.php?attachmentid=159389&d=1507667910
+-  Tải patch tại đây (file tải về là KSM08_ext_aura_one_05b.zip): https://www.mobileread.com/forums/attachment.php?attachmentid=159389&d=1507667910 / link forum gốc trong trường hợp link trực tiếp die: https://www.mobileread.com/forums/showpost.php?p=3389190&postcount=221
 - Giải nén file vừa tải sẽ được file KoboRoot.tgz, kết nối Kobo với máy tính từ KSM (xem hướng dẫn phần 2.2.1, đoạn cuối), copy file này vào trong thư mục .kobo trên ổ KoboReader. Ghi chú: nếu các bác không thể kết nối USB từ KSM thì hãy vào Nickel.
 - Safely remove và trên máy Kobo nhấn chọn "usb disable.sh" và "return" để về màn hình chính của KSM. Lúc này KSM sẽ hiện thêm dòng "handle update", nhấn vào đó và chọn  "install update" (TUYỆT ĐỐI KHÔNG CHỌN dòng "install partial update"). Chờ cho máy chạy cập nhật và khởi động lại, vậy là chúng ta đã cài xong KSM :D.<br>
 ![Cài đặt update](https://www.mobileread.com/forums/attachment.php?attachmentid=119331&d=1392941142)
