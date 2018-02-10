@@ -134,6 +134,11 @@ Em xin tặng các bác link tải từ điển dạng stardict để dùng vớ
 Để cài từ điển cho koreader thì các bác chỉ việc giải nén mấy cái file từ điển về, mỗi loại từ điển nên cho nó vào một thư mục riêng. Thường thì trong mỗi thư mục từ điển sẽ có vài file có đuôi .ifo, .idx, .dz, .oft. Xong rồi các bác cứ copy các folder từ điển vào thư mục .adds/koreader/data/dict trên máy Kobo. Để tra từ thì chỉ việc dùng ngón tay giữ vào từ cần tra. Lần đầu khởi chạy thì nếu các bác cài nhiều từ điển (em cài khoảng 7-8 cái, trong đó có 2-3 cái từ điển dung lượng >100mb) thì sẽ mất khoảng vài phút. Các bác thấy máy nó như kiểu không chạy thì cứ để im đấy nhé, một lúc là sẽ chạy xong.<br>
 ![Từ điển Koreader](http://i.imgur.com/Om888hT.jpg)
 
+Trong trường hợp mà từ điển khi tra hiện ra thông báo là "No definition found" thì các bác có thể thử lần lượt từng bước sau:
+  * Xóa đi cài lại koreader bản nightly mới nhất
+  * Tải file này https://github.com/koreader/koreader/files/1489711/sdcv-arm-linux-gnuabihf.zip ; giải nén ra sẽ được 1 file là sdcv, copy đè cái file đó vào folder koreader
+  * Downgrade firmware xuống 4.5 / 4.4 rồi cài lại koreader
+
 #### 3.3.3. Cài đặt thêm font
 Các bác copy font bất kỳ vào .adds/koreader/fonts
 
