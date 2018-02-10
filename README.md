@@ -128,9 +128,8 @@ Nếu một lúc nào đó mà các bác muốn gỡ bỏ KSM thì thực hiện
 
 #### 3.3.2. Cài đặt thêm từ điển
 Em xin tặng các bác link tải từ điển dạng stardict để dùng với koreader: 
-- Link tải từ điển tiếng Việt: http://stardict.rrr.rs/misc/index.html
-- Link tải các từ điển Anh-Anh loại bự: http://stardict.rrr.rs/bigdict/index.html
-- Link tổng các thể loại từ điển khác: http://stardict.rrr.rs/
+- Link tải từ điển Anh-Việt và Việt-Anh: https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader/blob/master/E-V%20dict.zip
+- Link tổng các thể loại từ điển khác: https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader
 
 Để cài từ điển cho koreader thì các bác chỉ việc giải nén mấy cái file từ điển về, mỗi loại từ điển nên cho nó vào một thư mục riêng. Thường thì trong mỗi thư mục từ điển sẽ có vài file có đuôi .ifo, .idx, .dz, .oft. Xong rồi các bác cứ copy các folder từ điển vào thư mục .adds/koreader/data/dict trên máy Kobo. Để tra từ thì chỉ việc dùng ngón tay giữ vào từ cần tra. Lần đầu khởi chạy thì nếu các bác cài nhiều từ điển (em cài khoảng 7-8 cái, trong đó có 2-3 cái từ điển dung lượng >100mb) thì sẽ mất khoảng vài phút. Các bác thấy máy nó như kiểu không chạy thì cứ để im đấy nhé, một lúc là sẽ chạy xong.<br>
 ![Từ điển Koreader](http://i.imgur.com/Om888hT.jpg)
