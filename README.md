@@ -11,7 +11,7 @@ _Viết bằng FocusWriter, chạy trên Linux Mint 18.2, ngày 27/8/2017_
 2.2.1. Cài đặt KSM<br>
 2.2.2. Cài đặt patch bổ sung cho KSM<br>
 2.2.2.1. Cảnh báo<br>
-2.2.2.2. Các bước cài patch cho các máy Kobo đời trước Aura H2O Edition 2<br>
+2.2.2.2. Các bước cài update KSM để hỗ trợ các máy Kobo đời từ Aura One về sau<br>
 2.2.3. Gỡ bỏ KSM<br>
 3. Sử dụng Koreader<br>
 3.1. Lưu ý trước khi cài đặt<br>
@@ -61,7 +61,7 @@ Coolreader là một ứng dụng tương tự như Koreader, các tính năng c
 ### 2.1. Lưu ý trước khi cài đặt
 [Cập nhật 11/5/2018]
 - Cần sạc pin đầy một chút trước khi cài KSM
-- Phiên bản KSM 08 không hoạt động trên Kobo Aura H2O Edition 2 và không tốt lắm trên Kobo Aura One. Phiên bản KSM 09 vừa ra gần đây về sơ bộ đã hỗ trợ tất cả các máy, do đó hướng dẫn này đã cập nhật để cài đặt KSM 09.
+- Phiên bản KSM 08 không hoạt động trên Kobo Aura H2O Edition 2 và không tốt lắm trên Kobo Aura One. Phiên bản KSM 09 vừa ra gần đây về sơ bộ đã hỗ trợ tất cả các máy, tuy nhiên H2O Ed 2 vẫn chưa được tốt. Hướng dẫn này đã cập nhật để cài đặt KSM 09.
 - KSM hoạt động được với Firmware 2.6.0 đến 4.3.8842 và có thể cả các bản về sau (hiện tại xác nhận hoạt động tốt trên firmware 4.5.xxxx). Tuy nhiên nên tránh các bản FW  3.16.10 và 3.17.0. 
 - Với máy Aura One và Aura Edition 2 thì khuyến cáo nên cập nhật firmware lên bản mới nhất trước khi cài đặt KSM, nếu không thì có thể có vấn đề về kết nối USB. 
 - Với các máy chạy firmware từ bản 4.2.8432 trở lên (đặc biệt là Aura One và Aura Edition 2) thì nếu cài KSM 08 sẽ cần cài thêm một bản patch, đối với KSM 09 thì cần cài thêm bản Update 2 (xem phần 2.2.2.2). Ở đây chúng ta sẽ chỉ quan tâm đến KSM 09.
