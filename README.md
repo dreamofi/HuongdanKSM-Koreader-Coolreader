@@ -59,10 +59,12 @@ Coolreader là một ứng dụng tương tự như Koreader, các tính năng c
 
 ## 2. Cách cài đặt KSM
 ### 2.1. Lưu ý trước khi cài đặt
-- Phiên bản hiện tại của KSM (KSM 08) hiện vẫn chưa hoạt động trên Kobo Aura H2O Edition 2. Với các bác đã trót mua thì cố gắng chờ đợi thêm một thời gian nữa.
-- KSM 08 hoạt động được với Firmware 2.6.0 đến 4.3.8842 và có thể cả các bản về sau (hiện tại xác nhận hoạt động tốt trên firmware 4.5.xxxx). Tuy nhiên nên tránh các bản FW  3.16.10 và 3.17.0. 
-- Với máy Aura One và Aura Edition 2 thì khuyến cáo nên cập nhật firmware lên bản mới nhất trước khi cài đặt KSM 08, nếu không thì có thể có vấn đề về kết nối USB. 
-- Với các máy chạy firmware từ bản 4.2.8432 trở lên (đặc biệt là Aura One và Aura Edition 2) thì sau khi cài đặt KSM 08 sẽ cần cài thêm một bản patch (xem phần 2.2.2.2)
+[Cập nhật 11/5/2018]
+- Cần sạc pin đầy một chút trước khi cài KSM
+- Phiên bản KSM 08 không hoạt động trên Kobo Aura H2O Edition 2 và không tốt lắm trên Kobo Aura One. Phiên bản KSM 09 vừa ra gần đây về sơ bộ đã hỗ trợ tất cả các máy, do đó hướng dẫn này đã cập nhật để cài đặt KSM 09.
+- KSM hoạt động được với Firmware 2.6.0 đến 4.3.8842 và có thể cả các bản về sau (hiện tại xác nhận hoạt động tốt trên firmware 4.5.xxxx). Tuy nhiên nên tránh các bản FW  3.16.10 và 3.17.0. 
+- Với máy Aura One và Aura Edition 2 thì khuyến cáo nên cập nhật firmware lên bản mới nhất trước khi cài đặt KSM, nếu không thì có thể có vấn đề về kết nối USB. 
+- Với các máy chạy firmware từ bản 4.2.8432 trở lên (đặc biệt là Aura One và Aura Edition 2) thì nếu cài KSM 08 sẽ cần cài thêm một bản patch, đối với KSM 09 thì cần cài thêm bản Update 2 (xem phần 2.2.2.2). Ở đây chúng ta sẽ chỉ quan tâm đến KSM 09.
 - Một điểm cần lưu ý nữa là rủi ro hỏng máy có thể xảy ra trong khi cài KSM tuy là rất thấp nhưng không thể loại trừ khả năng. Do vậy các bác nên sao lưu thẻ nhớ trong ra một thẻ nhớ khác hoặc lưu vào máy tính. Các bác có thể sử dụng HDD Raw Copy (trên Windows, link http://hddguru.com/software/HDD-Raw-Copy-Tool/) hoặc lệnh dd (trên Linux, cần thiết lập flag là "conv=noerror,notrunc,sync").
 - Nếu vì một lý do nào đó mà các bác cài bản FW cũ đè lên FW mới (downgrade), thì các bác cần thực hiện factory reset, nếu không Nickel có thể không hoạt động sau khi cài KSM. Lý do là vì KSM sẽ quét một số file nào đó trong bộ nhớ trong để xác định phiên bản FW, nếu không chạy factory reset thì thông số sẽ bị lệch mất.
 
@@ -71,7 +73,7 @@ Coolreader là một ứng dụng tương tự như Koreader, các tính năng c
 
 - Kết nối máy Kobo với máy tính qua cáp USB, chúng ta sẽ thấy hiện ra ổ có tên KoboReader, và ổ này sẽ là thư mục gốc (root) để tiến hành cài đặt.
 
-- Tải "Kobo Start Menu" về máy tính (link https://www.mobileread.com/forums/attachment.php?attachmentid=143240&d=1445986392), giải nén ra ta sẽ được một file là "Koboroot.tgz" và một thư mục là "kbmenupngs". Copy thư mục "kbmenupngs" vào thư mục gốc (ngay ngoài ổ KoboReader). Chạy safely remove với ổ KoboReader và rút cáp USB. Máy sẽ tự động xử lý và hiển thị màn hình có chữ "Processing". Khởi động lại máy và kiểm tra trong thư viện (Library) có các file sau:
+- Vào link sau: https://www.mobileread.com/forums/showthread.php?t=293804, sau đó tải file KBStartMenu_09_plus_update_001.zip và  	KSM09_update002.zip (file này sẽ để đến bước 2.2.2.2) về máy. Giải nén file KBStartMenu_09_plus_update_001.zip ra ta sẽ được một file là "Koboroot.tgz" và một thư mục là "kbmenupngs". Copy thư mục "kbmenupngs" vào thư mục gốc (ngay ngoài ổ KoboReader). Chạy safely remove với ổ KoboReader và rút cáp USB. Máy sẽ tự động xử lý và hiển thị màn hình có chữ "Processing". Khởi động lại máy và kiểm tra trong thư viện (Library) có các file sau:
 
   * exit_nickel.png [thoát nickel ra KSM]
   * poweroff.png [tắt máy]
@@ -88,17 +90,18 @@ Các file này không phải là file ảnh đơn thuần, mà về sau sau khi 
 
 - Bình thường thi khi ở chế độ sử dụng KSM, nếu cắm Kobo vào máy tính thì máy tính sẽ không nhận ổ. Để kết nối với máy tính từ KSM thì trước khi nối cáp USB, trên menu KSM nhấn vào "usb" > "usb enable.sh". Chờ cho đến khi phần hiển thị bên trên hiện là “USB support: enable” thì hãng cắm cáp USB.
 
-#### 2.2.2. Cài đặt patch bổ sung cho KSM
+#### 2.2.2. Cài đặt update bổ sung cho KSM
 ##### 2.2.2.1. Cảnh báo
-- Phải chắc chắn rằng KSM 08 đã được cài đặt thành công trước khi cài patch.
+- Phải chắc chắn rằng KSM 09 đã được cài đặt thành công trước khi cài patch.
 - Các đời máy mới có ít tùy chọn reset và phục hồi, cho nên khả năng các máy đời mới có khả năng "ra đi" cao hơn so với các đời cũ. Như vậy chúng ta nên sao lưu trước để đề phòng (xem lại phần 2.1).
 
-##### 2.2.2.2. Các bước cài patch cho các máy Kobo đời trước Aura H2O Edition 2
--  Tải patch tại đây (file tải về là KSM08_ext_aura_one_05b.zip): https://www.mobileread.com/forums/attachment.php?attachmentid=159389&d=1507667910 / link forum gốc trong trường hợp link trực tiếp die: https://www.mobileread.com/forums/showpost.php?p=3389190&postcount=221
-- Giải nén file vừa tải sẽ được file KoboRoot.tgz, kết nối Kobo với máy tính từ KSM (xem hướng dẫn phần 2.2.1, đoạn cuối), copy file này vào trong thư mục .kobo trên ổ KoboReader. Ghi chú: nếu các bác không thể kết nối USB từ KSM thì hãy vào Nickel.
-- Safely remove và trên máy Kobo nhấn chọn "usb disable.sh" và "return" để về màn hình chính của KSM. Lúc này KSM sẽ hiện thêm dòng "handle update", nhấn vào đó và chọn  "install update" (TUYỆT ĐỐI KHÔNG CHỌN dòng "install partial update"). Chờ cho máy chạy cập nhật và khởi động lại, vậy là chúng ta đã cài xong KSM :D.<br>
-![Cài đặt update](https://www.mobileread.com/forums/attachment.php?attachmentid=119331&d=1392941142)
-![Giao diện KSM](https://www.mobileread.com/forums/attachment.php?attachmentid=146085&d=1454716765)
+##### 2.2.2.2. Các bước cài update
+- Kết nối máy Kobo với máy tính
+- Copy file KSM09_update002.zip đã tải ở bước 2.2.1 vào folder .adds\kbmenu_user
+- Safely remove và trên máy Kobo nhấn chọn "usb disable.sh" và "return" để về màn hình chính của KSM. Lúc này KSM sẽ hiện thêm dòng "handle KSM update", nhấn vào đó và chọn  "install KSM update". Chờ cho máy chạy cập nhật và khi nó hiện thông báo đã chạy xong thì nhấn vào giữa màn hình, một nút Close sẽ hiện ra, nhấn vào đó thì máy sẽ khởi động lại, vậy là chúng ta đã cài xong KSM :D.<br>
+![Giao diện update](https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader/blob/master/ksm%20update.jpg)
+![Update 2](https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader/blob/master/ksm%20update2%20done.jpg)
+![Giao diện KSM](https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader/blob/master/ksm%20interface.jpg)
 
 #### 2.2.3. Gỡ bỏ KSM
 Nếu một lúc nào đó mà các bác muốn gỡ bỏ KSM thì thực hiện như sau:
@@ -146,6 +149,10 @@ Các bác copy font bất kỳ vào .adds/koreader/fonts
 ### 4.1. Cài đặt
 - Tải Coolreader tại đây: http://www.pbchess.vlasovsoft.net/en/index.html (phần download ở dưới đáy) 
 - Giải nén file vừa tải sẽ được thư mục vlasovsoft và các file khác, tương tự như cài koreader, bỏ qua các file khác và copy thư mục vlasovsoft vào ".adds" trên máy Kobo
+- Ở trong giao diện KSM 09 thì nhấn vào dòng "Toggle btw full and short menu" để hiện ra đủ menu.
+![Toggle Menu](https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader/blob/master/ksm%20update.jpg)
+- Nhấn vào dòng start vlasovsoftlauncher
+![Chạy coolreader](https://github.com/dreamofi/HuongdanKSM-Koreader-Coolreader/blob/master/ksm%20full%20menu.jpg)
 - Để nâng cấp Coolreader thì cũng chỉ việc copy đè thư mục vlasovsoft bản mới vào ".adds".
 
 ### 4.2. Hướng dẫn sử dụng cơ bản
