@@ -36,7 +36,9 @@ Từ bản firmware 4.17 trở đi  thì Nickel (phần mềm đọc mặc đị
 
     [FeatureSettings]
     ExcludeSyncFolders=\\.(?!kobo|adobe).*?
-    
+Ghi chú: Nếu các bác không biết cách thêm đoạn mã trên, có thể xem hướng dẫn để chạy đoạn script tự động trong post thứ 2 tại link này: https://www.mobileread.com/forums/showthread.php?t=314220
+
+Thực hiện:
 Vào link https://www.mobileread.com/forums/showthread.php?t=314220, kéo xuống chỗ One-Click Kobo Packages rồi tải file ưa thích (chỉ koreader, chỉ plato hay cả 2). Tải về xong rồi thì bung nén thẳng vào cái ổ gốc (root) của máy, safely remove rồi để máy nó tự update là xong. Về sau cần vào koreader thì trong nickel cứ vào Home/My book hay library gì đó, rồi nhấn vào cái file koreader.png hay plato.png
 
 ## ==== Cảnh báo: Phần hướng dẫn sau đây đã cũ, không khuyến cáo thực hiện trên các máy H2o Ed2, Clara, Forma... trở đi, mọi người có thể xem thảo khảo từ phần 3.====
