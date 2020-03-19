@@ -1,6 +1,7 @@
 # HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG KSM, KOREADER VÀ COOLREADER CHO MÁY ĐỌC SÁCH KOBO
 _Viết bằng FocusWriter, chạy trên Linux Mint 18.2, ngày 27/8/2017_
 # Mục lục
+0. Cập nhật 19/03/2020
 1. Giới thiệu về Kobo Start Menu, Koreader và Coolreader<br>
 1.1. Giới thiệu về Kobo Start Menu (KSM)<br>
 1.2. Giới thiệu về Koreader<br>
@@ -27,6 +28,18 @@ _Viết bằng FocusWriter, chạy trên Linux Mint 18.2, ngày 27/8/2017_
 5.1. KSM/Koreader/Coolreader hay bị đơ<br>
 6. Nguồn tham khảo<br>
 
+## 0. Cập nhật ngày 19/03/2020
+Phần hướng dẫn cài koreader với KSM 09 như dưới đây hiện đã cũ, mọi người không nên làm theo. Để cài Koreader hiện đã có cách đơn giản và an toàn hơn như sau:
+
+Chuẩn bị:
+Từ bản firmware 4.17 trở đi  thì Nickel (phần mềm đọc mặc định của kobo) nó sẽ quét cả các thư mục  ẩn, thế nên để tránh việc này trước khi cài KFmon hay KSM để chạy koreader sẽ cần thêm đoạn mã sau vào cuối file ".kobo\Kobo\Kobo  eReader.conf":
+
+    [FeatureSettings]
+    ExcludeSyncFolders=\\.(?!kobo|adobe).*?
+    
+Vào link https://www.mobileread.com/forums/showthread.php?t=314220, kéo xuống chỗ One-Click Kobo Packages rồi tải file ưa thích (chỉ koreader, chỉ plato hay cả 2). Tải về xong rồi thì bung nén thẳng vào cái ổ gốc (root) của máy, safely remove rồi để máy nó tự update là xong. Về sau cần vào koreader thì trong nickel cứ vào Home/My book hay library gì đó, rồi nhấn vào cái file koreader.png hay plato.png
+
+## ==== Cảnh báo: Phần hướng dẫn sau đây đã cũ, không khuyến cáo thực hiện trên các máy H2o Ed2, Clara, Forma... trở đi, mọi người có thể xem thảo khảo từ phần 3.====
 ## 1. Giới thiệu về Kobo Start Menu, Koreader và Coolreader
 ### 1.1. Giới thiệu về Kobo Start Menu (KSM)
 Kobo Start Menu là ứng dụng cài thêm cho máy đọc sách Kobo, với tính năng chính là:
