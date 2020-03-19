@@ -41,7 +41,7 @@ Ghi chú: Nếu các bác không biết cách thêm đoạn mã trên, có thể
 Thực hiện:
 Vào link https://www.mobileread.com/forums/showthread.php?t=314220, kéo xuống chỗ One-Click Kobo Packages rồi tải file ưa thích (chỉ koreader, chỉ plato hay cả 2). Tải về xong rồi thì bung nén thẳng vào cái ổ gốc (root) của máy, safely remove rồi để máy nó tự update là xong. Về sau cần vào koreader thì trong nickel cứ vào Home/My book hay library gì đó, rồi nhấn vào cái file koreader.png hay plato.png
 
-## ==== Cảnh báo: Phần hướng dẫn sau đây đã cũ, không khuyến cáo thực hiện trên các máy H2o Ed2, Clara, Forma... trở đi, mọi người có thể xem thảo khảo từ phần 3.====
+## ==== Cảnh báo: Phần hướng dẫn sau đây đã cũ, không khuyến cáo thực hiện trên các máy H2o Ed2, Clara, Forma... trở đi, mọi người có thể xem tham khảo từ phần 3.====
 ## 1. Giới thiệu về Kobo Start Menu, Koreader và Coolreader
 ### 1.1. Giới thiệu về Kobo Start Menu (KSM)
 Kobo Start Menu là ứng dụng cài thêm cho máy đọc sách Kobo, với tính năng chính là:
